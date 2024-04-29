@@ -1,0 +1,12 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--primary-font-color);
+}
+
+:root{
+    --primary-font-color: #ffff;
+    --secon-font-color: rgba(221, 19, 53, 0.76);
+}
