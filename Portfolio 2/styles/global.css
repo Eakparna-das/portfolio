@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background-color: black;
+  --font-color: white;
+  --secondary-color: rgb(191, 56, 79);
+}
+body {
+  background: var(--background-color);
+  color: var(--font-color);
+}
+.body_container {
+  max-width: 1300px;
+  width: 100%;
+  position: relative;
+  height: auto;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+span {
+  color: var(--secondary-color);
+}

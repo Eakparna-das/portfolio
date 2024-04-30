@@ -1,0 +1,128 @@
+.main_itemes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.text h1 {
+  font-size: 50px;
+}
+.img img {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+}
+/* about me starts here */
+.main_about_content {
+  margin-top: 200px;
+}
+.main_about_itemes {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.about_img img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+
+.about_text p {
+  padding-top: 20px;
+  width: 600px;
+  height: auto;
+}
+.about_text ul {
+  display: flex;
+  padding-top: 20px;
+}
+.about_text ul li {
+  list-style: none;
+  margin-right: 30px;
+}
+.about_text ul li:last-child {
+  margin-right: 0;
+}
+.about_text ul li a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+.about_text ul li a:hover {
+  border-bottom: 5px solid var(--secondary-color);
+}
+/* My services starts here */
+.service_content {
+  margin-top: 200px;
+}
+.div_service_heading h1 {
+  margin-left: 92px;
+}
+.service_itemes {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-content: center;
+  flex-direction: row;
+  max-width: 1160px;
+  padding-top: 50px;
+  padding-left: 90px;
+  height: auto;
+  width: 100%;
+}
+.service_itemes div {
+  margin-right: 50px;
+  border: 2px solid rgba(108, 108, 108, 0.812);
+  background: rgb(108, 108, 108, 0.812);
+  padding: 10px;
+}
+.service_itemes div:hover {
+  border: 1px solid var(--secondary-color);
+  background: var(--secondary-color);
+}
+.service_itemes div:last-child {
+  margin-right: 0;
+}
+.service_itemes div h3 {
+  font-size: 25px;
+}
+.service_itemes div p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.service_itemes div a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+.service_itemes div a:hover {
+  font-weight: 900;
+}
+/* Download Resume starts here */
+.download_content {
+  margin-top: 200px;
+}
+.download_itemes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.download_img img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+.download_button a {
+  text-decoration: none;
+  color: var(--font-color);
+  margin-left: 50px;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid var(--secondary-color);
+  background: var(--secondary-color);
+  font-weight: 600;
+}
+.download_button a:hover {
+  border: 1px solid var(--font-color);
+  background: var(--font-color);
+  color: var(--background-color);
+}
